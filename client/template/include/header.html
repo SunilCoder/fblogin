@@ -15,6 +15,7 @@
 		      	<ul class="nav navbar-nav navbar-right">
 			        {{#if currentUser}}
 			          {{>loggedIn}}
+			         <img class="img-rounded " src="{{currentUser.profile.picture}}" >
 			        {{else}}
 			          {{>notLoggedIn}}
 			        {{/if}}
